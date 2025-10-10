@@ -1,5 +1,5 @@
 <details>
- <summary> - HQ-SRV HQ-CLI BR-SRV </summary>
+ <summary> HQ-SRV/HQ-CLI/BR-SRV </summary>
 
   ```tcl
 cp /etc/apt/sources.list.d/alt.list /etc/apt/sources.list.d/alt.list.bak
