@@ -9,7 +9,7 @@ sed -i 's|^rpm.*ftp\.altlinux|# &|g' /etc/apt/sources.list.d/alt.list
 cat >> /etc/apt/sources.list.d/alt.list <<EOF
 rpm http://192.168.0.91/mirror p10/branch/x86_64 classic
 rpm http://192.168.0.91/mirror p10/branch/noarch classic
-rpm http://192.168.0.91/mirror p10/branch/x86_64-586 classic
+rpm http://192.168.0.91/mirror p10/branch/x86_64-i586 classic
 EOF
 
 apt-get update
