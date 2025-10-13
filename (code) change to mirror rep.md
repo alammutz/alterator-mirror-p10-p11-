@@ -16,6 +16,19 @@ apt-get update
 
   ```
 
-</details>
+<details>
+ <summary> ISP </summary>
 
-  
+ ```tcl
+cp /etc/apt/sources.list.d/alt.list /etc/apt/sources.list.d/alt.list.bak
+
+sed -i 's|^rpm.*ftp\.altlinux|# &|g' /etc/apt/sources.list.d/alt.list
+
+cat >> /etc/apt/sources.list.d/alt.list <<EOF
+rpm [p11] http://192.168.0.91/mirror p11/branch/x86_64 classic
+rpm [p11] http://192.168.0.91/mirror p11/branch/noarch classic
+rpm [p11] http://192.168.0.91/mirror p11/branch/x86_64-i586 classic
+EOF
+
+apt-get update
+```
