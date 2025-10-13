@@ -5,7 +5,7 @@
   ```tcl
 cp /etc/apt/sources.list.d/alt.list /etc/apt/sources.list.d/alt.list.bak
 
-sed -i 's|^rpm.*ftp\.altlinux|# &|g' /etc/apt/sources.list.d/alt.list
+sed -i 's|^rpm.*ftp\.altlinux|#&|g' /etc/apt/sources.list.d/alt.list
 
 cat >> /etc/apt/sources.list.d/alt.list <<EOF
 rpm [p10] http://192.168.0.91/mirror p10/branch/x86_64 classic
