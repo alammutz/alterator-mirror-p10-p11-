@@ -1,6 +1,6 @@
-<details>
 </details>
- <summary> HQ-SRV/HQ-CLI/BR-SRV </summary>
+<details>
+  <summary>HQ-SRV/HQ-CLI/BR-SRV</summary>
 
   ```tcl
 cp /etc/apt/sources.list.d/alt.list /etc/apt/sources.list.d/alt.list.bak
@@ -17,8 +17,9 @@ apt-get update
 
   ```
 
+</details>
 <details>
- <summary> ISP </summary>
+  <summary>ISP</summary>
 
  ```tcl
 cp /etc/apt/sources.list.d/alt.list /etc/apt/sources.list.d/alt.list.bak
